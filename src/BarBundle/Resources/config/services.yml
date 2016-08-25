@@ -1,0 +1,10 @@
+services:
+
+    barbundle.command.hi:
+        class: BarBundle\Command\HiCommand
+        tags:
+            - {name: 'chain.command', master_command: 'foo:hello', priority: 0}
+#    barbundle.command.hi2:
+#        class: BarBundle\Command\HiCommand2
+#        tags:
+#            - {name: 'chain.command', master_command: 'foo:hello', priority: 10}

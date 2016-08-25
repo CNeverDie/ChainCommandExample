@@ -1,0 +1,6 @@
+services:
+
+#    foobundle.command.hello:
+#            class: FooBundle\Command\HelloCommand
+#            tags:
+#                - {name: 'chain.command', master_command: 'foobundle.command.hello', priority: 10}
